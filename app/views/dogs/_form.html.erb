@@ -27,6 +27,13 @@
     <%= form.number_field :age %>
   </div>
 
+  <div class="field">
+    <%= f.label :picture %>
+    <%= f.hidden_field(:picture_cache) %>
+    <%= f.file_field(:picture) %>
+  </div>
+
+  
   <div class="actions">
     <%= form.submit %>
   </div>

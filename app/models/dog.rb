@@ -1,3 +1,4 @@
-class Breed < ApplicationRecord
-  has_and_belongs_to_many :dogs
+class Dog < ApplicationRecord
+  mount_uploader :picture, PictureUploader
+
 end
