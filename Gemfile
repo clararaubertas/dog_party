@@ -10,7 +10,7 @@ group :development do
   gem 'sqlite3'
 end
 group :production do
-  gem 'postgres'
+  gem 'pg'
 end
 
 gem 'carrierwave'
