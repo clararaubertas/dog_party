@@ -13,3 +13,15 @@
  *= require_tree .
  *= require_self
  */
+h1 { color: blue; 
+   }
+
+img { max-width: 100%; 
+    }
+
+body { background: url('/assets/dog.jpg'); background-size: 100%;
+     }
+.container { background: #eef; padding: 1em;
+     }
+#main { margin-top: 50vh;
+      }

@@ -15,5 +15,13 @@
   <%= @dog.age %>
 </p>
 
+<p>
+  <strong>Reviews:</strong>
+  <% @dog.reviews.each do |r| %>
+    <%= r.content %>
+    <hr />
+  <% end %>
+</p>
+
 <%= link_to 'Edit', edit_dog_path(@dog) %> |
 <%= link_to 'Back', dogs_path %>

@@ -29,6 +29,9 @@
   </tbody>
 </table>
 
+<%= pie_chart Dog.group(:name).count %>
+
+
 <br>
 
 <%= link_to 'New Dog', new_dog_path %>
